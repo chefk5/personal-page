@@ -7,5 +7,7 @@ module.exports = {
   variants: {
     extend: {},
   },
-  plugins: [],
+  plugins: [
+    require('postcss-100vh-fix'),
+  ],
 }
